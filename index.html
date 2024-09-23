@@ -4,8 +4,29 @@
 <head>
     <title>Fall Weather Forecast</title>
     <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
 
+        .forecast {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: azure; 
+            border: 1px solid black; 
+            border-radius: 25px;
+        }
 
+        .forecast:hover {
+            background-color: aqua;
+        }
+
+        footer {
+            color:darkgrey;
+            font-family: helvetica;
+        }
+    </style>
     <!-- Embedded styles will go here -->
 
 </head>
@@ -19,7 +40,7 @@
     </div>
 
     <!-- Example of where inline styles can be added -->
-    <footer style="text-align: center;">Last updated: September 22</footer>
+    <footer style="text-align: center; background-color: black;">Last updated: September 22</footer>
 </body>
 
 </html>
